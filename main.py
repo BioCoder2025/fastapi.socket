@@ -4,7 +4,6 @@ from fastapi import FastAPI, WebSocket
 import uvicorn
 from EMG.graph_visual import start_visualization
 from fastapi.middleware.cors import CORSMiddleware
-import asyncio
 
 app = FastAPI()
 data_queue = queue.Queue(maxsize=100)  # 스레드 안전한 큐
