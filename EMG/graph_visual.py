@@ -27,7 +27,7 @@ def start_visualization(data_queue: queue.Queue):
     ani = animation.FuncAnimation(
         fig, 
         update, 
-        interval=50,  # 20 FPS (50ms)
+        interval=50, # 20 FPS (50ms)
         blit=True
     )
     plt.show()

@@ -1,3 +1,8 @@
+"""
+1. `python3 main.py`
+2. `python3 EMG/socket_protocol.py`
+"""
+
 import threading
 import queue  # 스레드 안전한 큐 사용
 from fastapi import FastAPI, WebSocket
